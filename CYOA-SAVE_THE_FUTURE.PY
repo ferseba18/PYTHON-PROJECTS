@@ -1,0 +1,46 @@
+#ON HOLD
+print('Warning! The choices you make in this game will determine the ending you get and the fate of the humankind.')
+print('It is the year 21XX. The mysterious entity that refers to itself as the "Black Emperor Nihil" took the world by storm, improving technology and the society at first.')
+print('However, slowly over the last few years, the Black Emperor slowly stripped away the autonomy and independence of every single country of the world, replacing those with his own.')
+print('While the Black Emperor seemed to care and have the best interest of the human population at heart, that seems to have changed, if it was ever the case to begin.')
+print('A number of individuals have created a secret resistance group with the intention of exposing the crimes of the black emperor in order to hold him accountable and hoping to undo his regime.')
+print('You are a private investigator who received a mysterious request about finding the whereabouts of people that spoke against the Black Emeperor and went missing or were found dead some time later')
+print('You do want to help, but you have a feeling you are way over your head: If the Black Emperor or any of his underlings find you sniffing around, you could get sent to his personal prison or worse.')
+print('While you are thinking about what to do, someone enters your office. It is a young lady, possibly in her early 20s with short hair, skin while as snow and a seductive appearance.')
+print('Her smile seems to be friendly, but you have a feeling that smile seems to be merely an act of politeness and nothing else. You do recognize the gold shield insignia with a purple scarab on her belly.') 
+print('That particular scarab insignia belongs to the Black Emperor and his 7 elite enforcerers. They enforce his will and rumors say they incur favors from their master in order to engage in illegal activities or to frame certain individuals as criminals in order to toss them into his prison.')
+print('The woman in question is Artemisa, the second-in-command of the Black Emperor. She is known both for her looks and her efficiency in managing riots or criminals that dare to disrupt peace')
+input('´Please enter your name:')
+name = input()
+print('Good afternoon. You must be the private investigator ', name, '. correct?')
+print('You nod')
+print('In case you dont know, I am Artemisa, the second-in-command of the Black Emperor. I have come at the behest of our Lord Nihil. He requires your services to find a group of dissidents that seems to have formed a group with the intention of disrupting peace and undermining the peace our Emperor has tirelessly worked for.')
+print('You nod. You know exactly what she is talking about. You have indeed heard of the resistance and their efforts to expose the facist entity known as Nihil and hold him accountable for his crimes.')
+print('I am not exactly sure, to be honest. I am working on a case right now and I am not sure if I can take on another one.')
+print('That is unfortunate, Artemisa says. In that case, i am leaving my phone address to you. If you do finish your current case and decide to help us with this, I can assure you that you will be rewarded handsomely.')
+print('You nod and take her phone address. Artemisa smiles and leaves the office. You are alone in your office, thinking about how to proceed.')
+print('You know aiding the resistance could put you in the crosshairs of the Black Emeperor and his elite enforcerers, but you also know that if the lives of innocents are really being endangered, you must help the resistance. It is the right thing to do after all.')
+print('On the other hand, if the Black Emperor is not the criminal the resistance claims, you could be endangering your life for essensially nothing. In addition, Artemisa said you could be paid handsomely if you decide to take the case and help expose the resistance. You do kow many associates of Nihil went from rags to riches after proving themselves to him. This could be your chance to solve your biggest case ever and get rich while doing so')
+print('Then you think for a second. You are not obligated to help either group, so you could just decline both cases and continue with your job. It is far less dangerous than getting involved with either group.')
+print('You get off your chair and stair at the window, wondering what to do.')
+print('CHOICES:')
+print('If you decide to help the resistance with the missing people case, press 1.')
+print('If you decide to take the case offered by Artemisa and expose the resistance, press 2.')
+print('If you decide to decline both cases and continue working with other cases, press 3.')
+choice = input('Please select the choice you want to make:')
+if choice == '1':
+    print('You decide to contact the mysterious person that sent you the request and offer your aid. You know you are putting your life at risk, but you cannot shake the feeling there is something amiss here. You do want to find the whereabouts of the missing people after all.')
+    print('You contact the number with a cellphone you were provided with the mysterious envelope, as the instructions said. You believe this to be a measure to avoid being tracked by the government or the Black Emperor. The voice of a elder man greets you and tells you the location and time to meet the resistance to discuss the case.')
+    print('You are also given to not use your actual phone and use the cellphone you were provided in order to minimize the chances of being tracked. You agree to the terms and hang up the phone.')
+    print('You leave your work station and go to a nearby restaurant to dine. Everything seems go to well until you spot a police officer near the restaurant forcing nearby people to turn over their belongings for check. This is not good, you think. The Black Emperor must be on high alert for any resistance members and must have issued an order for the government to find them. ')
+    print('You feel like you could eat a cow right now, but it is worth it? If you are discovered, you could be arrested and delivered to the Black Emperor. On the other hand, you really want to have dinner before going home and the officer might not even stop you to check your belongings. What do you do?')
+    print('CHOICES:')
+    
+elif choice == '2':
+    print('')
+
+elif choice == '3':
+    print('')
+
+else:
+    print('Please select a valid choice.')
