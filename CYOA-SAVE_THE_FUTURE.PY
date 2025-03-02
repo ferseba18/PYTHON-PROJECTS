@@ -1,4 +1,3 @@
-#ON HOLD
 print('Warning! The choices you make in this game will determine the ending you get and the fate of the humankind.')
 print('It is the year 21XX. The mysterious entity that refers to itself as the "Black Emperor Nihil" took the world by storm, improving technology and the society at first.')
 print('However, slowly over the last few years, the Black Emperor slowly stripped away the autonomy and independence of every single country of the world, replacing those with his own.')
@@ -28,7 +27,7 @@ print('If you decide to help the resistance with the missing people case, press 
 print('If you decide to take the case offered by Artemisa and expose the resistance, press 2.')
 print('If you decide to decline both cases and continue working with other cases, press 3.')
 choice = input('Please select the choice you want to make:')
-if choice == '1':
+'''if choice == '1':
     print('You decide to contact the mysterious person that sent you the request and offer your aid. You know you are putting your life at risk, but you cannot shake the feeling there is something amiss here. You do want to find the whereabouts of the missing people after all.')
     print('You contact the number with a cellphone you were provided with the mysterious envelope, as the instructions said. You believe this to be a measure to avoid being tracked by the government or the Black Emperor. The voice of a elder man greets you and tells you the location and time to meet the resistance to discuss the case.')
     print('You are also given to not use your actual phone and use the cellphone you were provided in order to minimize the chances of being tracked. You agree to the terms and hang up the phone.')
@@ -43,4 +42,4 @@ elif choice == '3':
     print('')
 
 else:
-    print('Please select a valid choice.')
+    print('Please select a valid choice.')'''
